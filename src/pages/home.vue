@@ -99,4 +99,11 @@ export default Vue.component('resume', {
   top: 50%;
   transform: translateY(-50%);
 }
+
+@media only screen and (max-width: 767px) {
+  .preview {
+    width: auto !important;
+    margin-bottom: 20px;
+  }
+}
 </style>
