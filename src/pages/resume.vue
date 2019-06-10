@@ -39,9 +39,17 @@ export default Vue.component('resume', {
   background: white;
   position: relative;
   width: 21cm;
-  height: 29.68cm;
+  height: 100vh;
   display: block;
-  page-break-after: auto;
-  overflow: hidden;
+  /*page-break-after: auto;*/
+  overflow: scroll;
+}
+.page::-webkit-scrollbar {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .page {
+    width: 100% !important;
+  }
 }
 </style>

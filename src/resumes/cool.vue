@@ -91,7 +91,6 @@
           </div>
         </div>
       </div>
-
       <div class="content__right">
         <div class="section">
           <div class="section-headline">
@@ -136,10 +135,7 @@
             </a>
           </div>
         </div>
-
-        <div
-          v-if="person.projects"
-          class="section">
+        <div v-if="person.projects" class="section">
           <div class="section-headline">
             <i class="section-headline__icon material-icons">code</i>{{ lang.projects }}
           </div>
@@ -154,10 +150,7 @@
             </a>
           </div>
         </div>
-
-        <div
-          v-if="person.contributions"
-          class="section">
+        <div v-if="person.contributions" class="section">
           <div class="section-headline">
             <i class="section-headline__icon fa fa-heart"></i>{{lang.contributions}}
           </div>
@@ -265,6 +258,7 @@ a {
   &__right {
     height: 100%;
     padding: @base-padding;
+    overflow: scroll;
   }
 
   &__left {
@@ -347,8 +341,8 @@ a {
   }
 
   &__item-grid {
-    flex: 1 1 0;
-    margin-bottom: 5px;
+    /*flex: 1 1 0;*/
+    margin-bottom: 10px;
     padding-right: 5px;
   }
 
@@ -374,5 +368,17 @@ a {
   color: white;
   margin-top: 5px;
   padding: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .content {
+    position: relative;
+    flex-wrap: wrap;
+    &__left,
+    &__right {
+      width: 100% !important;
+      height: auto;
+    }
+  }
 }
 </style>

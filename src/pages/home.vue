@@ -6,58 +6,18 @@
   <h3 class="title">Sharvilak Thakore</h3>
   <div class="previews">
     <div class="preview">
-      <router-link v-bind:to="'/resume/material-dark'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-material-dark.png" />
-          <span>Dark</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/left-right'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-left-right.png" />
-          <span>Left-Right</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/oblique'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-oblique.png" />
-          <span>Oblique</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/side-bar'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-side-bar.png" />
-          <span>Side-Bar</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/side-bar-rtl'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-side-bar-rtl.png" />
-          <span>Side-Bar-rtl</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
-      <router-link v-bind:to="'/resume/left-right-rtl'">
-        <div class="preview-wrapper">
-          <img src="../assets/preview/resume-left-right-rtl.png" />
-          <span>Left-Right-rtl</span>
-        </div>
-      </router-link>
-    </div>
-    <div class="preview">
       <router-link v-bind:to="'/resume/cool'">
         <div class="preview-wrapper">
           <img src="../assets/preview/resume-cool.png" />
-          <span>cool</span>
+          <span>Resume 1</span>
+        </div>
+      </router-link>
+    </div>
+    <div class="preview">
+      <router-link v-bind:to="'/resume/creative'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/resume-creative.png" />
+          <span>Resume 2</span>
         </div>
       </router-link>
     </div>

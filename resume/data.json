@@ -4,7 +4,7 @@
     "middle": "T",
     "last": "Thakore"
   },
-  "about": "Hi, my name is Sharvilak Thakore. I\"m just about the most boring type of person you could\npossibly imagine. I like collecting leaves from the tree in my back yard and documenting\neach time I eat a peanut that is non-uniform. I am not a robot. Please hire me.",
+  "about": "Hi, my name is Sharvilak Thakore. I\"m just about the most enthusiastic type of person you could\npossibly imagine. I like trying out new technologies and frameworks.\n A full stack developer, always hungry to learn new stuff on web.",
   "position": "Software Developer",
   "birth": {
     "year": 1993,
@@ -19,13 +19,13 @@
     },
     {
       "company": "Infosys Ltd",
-      "position": ".NET Developer",
+      "position": ".NET developer",
       "timeperiod": "May 2015 - Jun 2017",
       "description": "Worked on Web development in Microsoft SharePoint and ASP.NET, managing the frontend and backend in Enterprise invoicing application for a leading US Bank. "
     },
     {
       "company": "Silver Touch Technologies Ltd",
-      "position": "Web Developer Intern",
+      "position": "Web developer intern",
       "timeperiod": "Dec 2014 - Apr 2015",
       "description": "As a part of my internship programme,I worked in web development in ASP.NET on a Content Management System(CMS) for a finance consultancy. "
     }
@@ -67,29 +67,75 @@
       "level": 75
     },
     {
+      "name": "Redis",
+      "level": 75
+    },
+    {
+      "name": "Sockets",
+      "level": 75
+    },
+    {
+      "name": "Google Maps, Mapbox, Leaflet",
+      "level": 75
+    },
+    {
+      "name": "Nginx",
+      "level": 75
+    },
+    {
       "name": "Google Cloud Platform",
       "level": 40
     }
   ],
-  "knowledge": "Also proficient in Adobe Photoshop and Illustrator, grew up bilingual\n(English and Klingon).",
+  "knowledge": "Also proficient in hosting applications on Google Cloud Platform and Heroku.",
   "projects": [
     {
-      "name": "best-resume-ever",
-      "platform": "Vue",
-      "description": "👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.",
-      "url": "https://github.com/salomonelli/best-resume-ever"
+      "name": "Logistics system for a leading UK same day delivery network",
+      "platform": "MEAN Stack",
+      "description": "A live GPS tracking system for patient specimens and samples. Using ‘track and trace’ and barcode scanning technology, it provides users with a live GPS position throughout the transportation process of the specimen, along with a full electronic time, date and location stamped audit trail. The system is based on SOAP to REST API integration, Elasticsearch, Mean stack, CRON jobs, sockets and has an eye catching UI design."
+    },
+    {
+      "name": "WebApp based taxi-dispatch system",
+      "platform": "MEAN Stack",
+      "description": "Integration with our own chauffeur and vendor centric product with client centric product by which clients can manage their rides, dispatches, invoices etc, which is being used by UK's leading TV production houses.",
+      "url": "https://app.infi9ity.com"
+    },
+    {
+      "name": "CMS - Page9",
+      "platform": "MEAN Stack",
+      "description": "Developed the product fully in MEAN stack based environment. Packages/Tools used by the backend include mongoose, EJS, body-parsers, google-bucket etc. Web pages can be created within a minute on a particular theme and can go live by just adding the content. Websites of Top UK based hotels, Real Estate Companies, Private associations use this product to manage their content independently in real-time.",
+      "url": "https://page9.online"
+    },
+    {
+      "name": "Inhouse grading portal for a private car hire association from UK",
+      "platform": "MEAN Stack",
+      "description": "Developed a web-based portal for a private hire car association from the UK. Worked on Backend and Frontend in the MEAN stack environment and worked on tasks related to replication in MongoDB, Stripe and GoCardless integration and deployment on Google Cloud Platform.",
+      "url" : "https://portal.lphca.co.uk"
+    },
+    {
+      "name": "Stripe and GoCardless integrations",
+      "platform": "Node.js",
+      "description": "I have been frequently involved with payment gateway integrations with stripe and subscription based payment system GoCardless. Integrated the above mentioned with our own projects in NodeJS and worked on REST APIs."
+    },
+    {
+      "name": "SharePoint based platform for a leading US Bank",
+      "platform": "ASP.NET 4.5",
+      "description": "An enterprise invoicing system based on SharePoint, connecting multiple servers from different environments with database in SQL Server. We used Javascript,jQuery,Bootstrap,HTML for front-end and implemented business logic in C# using SharePoint and ASP.NET libraries."
+    },
+    {
+      "name": "Behaviour driven development framework",
+      "platform": "ASP.NET 4.5",
+      "description": "Implemented BDD framework with CodedUI and Specflow in C#. Implemented object repository mechanism through XML and LINQ. Provided a utility to create object repository directly from an Excel."
     }
   ],
   "hobbies": [
     {
       "name": "Football",
-      "iconClass": "fa fa-gamepad",
-      "url": "https://example.com"
+      "iconClass": "fa fa-gamepad"
     },
     {
       "name": "Music - play tabla, keyboard",
-      "iconClass": "fa fa-pencil",
-      "url": "https://example.com"
+      "iconClass": "fa fa-pencil"
     }
   ],
   "contact": {
@@ -98,7 +144,25 @@
     "street": "Bangalore",
     "city": "Bangalore",
     "website": "sharvilakthakore.com",
-    "github": "sharvilak11"
+    "github": "sharvilak11",
+    "linkedin": "https://www.linkedin.com/in/sharvilak-thakore-261a8834/"
   },
-  "lang": "en"
+  "lang": "en",
+  "contributions": [
+    {
+      "name": "Location Based Service with Redis, NodeJS and SocketIO",
+      "description": "This project demonstrates the filtering of incoming locations from mobile devices in order for user to have a seamless live location tracking experience and optimal performance.",
+      "url": "https://github.com/sharvilak11/location-based-service"
+    },
+    {
+      "name": "ODATA connector for SQL and Nodejs",
+      "description": "This project demonstrates how to use ODATA queries for SQL and NodeJS.",
+      "url": "https://github.com/sharvilak11/nodejs-sql-odata"
+    },
+    {
+      "name": "Dicom parser in NodeJS",
+      "description": "XML Parser for .dicom files, used in medical industry for xray and medical imaging",
+      "url": "https://github.com/sharvilak11/medical-hierarchy-dicom-nodejs-mongodb"
+    }
+  ]
 }

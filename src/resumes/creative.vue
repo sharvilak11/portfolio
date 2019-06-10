@@ -134,6 +134,25 @@
         </div>
       </div>
 
+      <div v-if="person.skills"
+           class="skills-section section">
+        <div class="icon">
+          <i class="material-icons">done_all</i>
+          <span class="section-headline"> {{ lang.skills }} </span>
+        </div>
+
+        <div class="section-content-grid">
+          <a v-for="(skill, index) in person.skills" :key="index"
+             class="grid-item"
+             :href="skill.url">
+
+            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
+
+            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
+          </a>
+        </div>
+      </div>
+
       <div v-if="person.projects"
         class="projects-section section">
         <div class="icon">
@@ -150,25 +169,6 @@
             <span class="section-content__subheader">{{ project.platform }}</span>
             <span class="section-content__text"> {{ project.description }} </span>
             <span class="section-content__text--light"> {{ project.url }} </span>
-          </a>
-        </div>
-      </div>
-
-      <div v-if="person.skills"
-        class="skills-section section">
-        <div class="icon">
-          <i class="material-icons">done_all</i>
-          <span class="section-headline"> {{ lang.skills }} </span>
-        </div>
-
-        <div class="section-content-grid">
-          <a v-for="(skill, index) in person.skills" :key="index"
-            class="grid-item"
-            :href="skill.url">
-
-            <i v-if="skill.iconClass" :class="'lang-icon ' + skill.iconClass"></i>
-
-            <span v-else class="squarred-grid-item"> {{ skill.name }} </span>
           </a>
         </div>
       </div>
@@ -209,7 +209,7 @@ export default Vue.component(name, getVueOptions(name));
 
 <style lang="less" scoped>
 
-@accent-color: #A800FA;
+@accent-color: #34495E;
 
 .resume {
   display: flex;
@@ -264,7 +264,7 @@ export default Vue.component(name, getVueOptions(name));
   display: flex;
   flex-direction: column;
   padding: 30px;
-
+  overflow: scroll;
   height: 100%;
   width: 65%;
 }
@@ -371,7 +371,7 @@ a {
 }
 
 .section-content__item-grid {
-  flex: 1 1 0;
+  /*flex: 1 1 0;*/
 
   margin-bottom: 10px;
   padding-right: 10px;
@@ -494,6 +494,22 @@ a {
 
   display: block;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .resume {
+    position: relative;
+    flex-wrap: wrap;
+    .left-column,
+    .right-column {
+      width: auto !important;
+      height: auto;
+      position: relative;
+    }
+    .left-column-bg{
+      display: none;
+    }
+  }
 }
 
 </style>
