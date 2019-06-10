@@ -20,7 +20,8 @@
     "test": "npm run test:export && npm run test:preview && npm run test:docs && npm run test:e2e",
     "export": "concurrently \"npm run dev\" \"npm run pdf\" --success first --kill-others --raw",
     "lint": "eslint --ext .js,.vue src scripts",
-    "lint:fix": "eslint --ext .js,.vue src scripts --fix"
+    "lint:fix": "eslint --ext .js,.vue src scripts --fix",
+    "build": "node build/build.js"
   },
   "dependencies": {
     "font-awesome": "4.7.0",
