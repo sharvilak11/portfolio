@@ -1,0 +1,104 @@
+{
+  "name": {
+    "first": "Sharvilak",
+    "middle": "T",
+    "last": "Thakore"
+  },
+  "about": "Hi, my name is Sharvilak Thakore. I\"m just about the most boring type of person you could\npossibly imagine. I like collecting leaves from the tree in my back yard and documenting\neach time I eat a peanut that is non-uniform. I am not a robot. Please hire me.",
+  "position": "Software Developer",
+  "birth": {
+    "year": 1993,
+    "location": "Ahmedabad"
+  },
+  "experience": [
+    {
+      "company": "e9ine",
+      "position": "Full stack javascript developer",
+      "timeperiod": "since July 2017",
+      "description": "Products and Platforms for online cabs, CMS, Logistics and cinema booking. \nBeing a full stack developer I have been working in MEAN stack-based environment with technologies like AngularJS, VueJS, Express, Node.js and MongoDB, deployment, replication in Mongo, Elasticsearch, Payment Gateway integration with Stripe and GoCardless, Slack Bot integration, strong-soap, SOAP to REST, Location-based services, Mapbox, Leaflet, Google maps Redis, socket.io, fork-spawn, child processes, cron, google cloud platform, Heroku."
+    },
+    {
+      "company": "Infosys Ltd",
+      "position": ".NET Developer",
+      "timeperiod": "May 2015 - Jun 2017",
+      "description": "Worked on Web development in Microsoft SharePoint and ASP.NET, managing the frontend and backend in Enterprise invoicing application for a leading US Bank. "
+    },
+    {
+      "company": "Silver Touch Technologies Ltd",
+      "position": "Web Developer Intern",
+      "timeperiod": "Dec 2014 - Apr 2015",
+      "description": "As a part of my internship programme,I worked in web development in ASP.NET on a Content Management System(CMS) for a finance consultancy. "
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology",
+      "timeperiod": "March 2009 - December 2011",
+      "description": "Major in Computer Engineering, Dharmsinh Desai University , Nadiad, Gujarat."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Node.js",
+      "level": 99
+    },
+    {
+      "name": "Express.js",
+      "level": 95
+    },
+    {
+      "name": "JavaScript",
+      "level": 97
+    },
+    {
+      "name": "MongoDB",
+      "level": 93
+    },
+    {
+      "name": "AngularJS",
+      "level": 90
+    },
+    {
+      "name": "Elasticsearch",
+      "level": 80
+    },
+    {
+      "name": "VueJS",
+      "level": 75
+    },
+    {
+      "name": "Google Cloud Platform",
+      "level": 40
+    }
+  ],
+  "knowledge": "Also proficient in Adobe Photoshop and Illustrator, grew up bilingual\n(English and Klingon).",
+  "projects": [
+    {
+      "name": "best-resume-ever",
+      "platform": "Vue",
+      "description": "👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.",
+      "url": "https://github.com/salomonelli/best-resume-ever"
+    }
+  ],
+  "hobbies": [
+    {
+      "name": "Football",
+      "iconClass": "fa fa-gamepad",
+      "url": "https://example.com"
+    },
+    {
+      "name": "Music - play tabla, keyboard",
+      "iconClass": "fa fa-pencil",
+      "url": "https://example.com"
+    }
+  ],
+  "contact": {
+    "email": "sharvilakt@gmail.com",
+    "phone": "+91 81419099989",
+    "street": "Bangalore",
+    "city": "Bangalore",
+    "website": "sharvilakthakore.com",
+    "github": "sharvilak11"
+  },
+  "lang": "en"
+}
