@@ -6,7 +6,7 @@
   <h3 class="title">Sharvilak Thakore</h3>
   <div class="previews">
     <div class="preview">
-      <router-link v-bind:to="'/resume/cool'">
+      <router-link v-bind:to="'/cool'">
         <div class="preview-wrapper">
           <img src="../assets/preview/resume-cool.png" />
           <span>Resume 1</span>
@@ -14,7 +14,7 @@
       </router-link>
     </div>
     <div class="preview">
-      <router-link v-bind:to="'/resume/creative'">
+      <router-link v-bind:to="'/creative'">
         <div class="preview-wrapper">
           <img src="../assets/preview/resume-creative.png" />
           <span>Resume 2</span>
