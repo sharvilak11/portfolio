@@ -1,13 +1,9 @@
 {
-  "name": "best-resume-ever",
+  "name": "resume",
   "version": "1.0.0",
-  "description": "Build fast and easy multiple beautiful resumes and create your best CV ever! ",
+  "description": "showcasing the resume - inspired by salomonelli's best-resume-ever",
   "author": "salomonelli",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/salomonelli/best-resume-ever.git"
-  },
   "scripts": {
     "docs": "node build/build.js",
     "docs:serve": "cd docs/ && ws --port 8080 --rewrite '/best-resume-ever/* -> /$1'",
