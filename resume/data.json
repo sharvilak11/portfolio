@@ -5,12 +5,18 @@
     "last": "Thakore"
   },
   "about": "Hi, my name is Sharvilak Thakore. I\"m just about the most enthusiastic type of person you could\npossibly imagine. I like trying out new technologies and frameworks.\n A full stack developer, always hungry to learn new stuff on web.",
-  "position": "Software Developer",
+  "position": "Software Architect and Engineer",
   "birth": {
     "year": 1993,
     "location": "Ahmedabad"
   },
   "experience": [
+    {
+      "company": "e9ine",
+      "position": "Software Architect and Engineer",
+      "timeperiod": "since July 2017",
+      "description": "Collaborating with other professionals and clients to determine functional and non-functional requirements for new softwares and applications \nBuild schemas and database models based on client requirements in NoSQL \nPeriodically doing the code reviews and programming complex logic within Backend and Frontend applications developed in NodeJS, ExpressJS, AngularJS, VueJS. \nHands on with MongoDB, Elasticsearch, Redis, ODATA, CRON, Vuetify, Bootstrap, SCSS, LESS, sockets, Google cloud platform, Leaflet, Mapbox, Google maps."
+    },
     {
       "company": "e9ine",
       "position": "Full stack javascript developer",
@@ -89,6 +95,11 @@
   ],
   "knowledge": "Also proficient in hosting applications on Google Cloud Platform and Heroku.",
   "projects": [
+    {
+      "name": "A real estate based product",
+      "platform": "MEVN Stack",
+      "description": "An upcoming product which will revolutionise the real estate industry being developed on top of MEVN stack with rich UI design"
+    },
     {
       "name": "Logistics system for a leading UK same day delivery network",
       "platform": "MEAN Stack",

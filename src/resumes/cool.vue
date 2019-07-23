@@ -64,21 +64,24 @@
             <a
               v-if="person.contact.website"
               class="section-link"
-              :href="person.contact.website">
+              :href="person.contact.website"
+              target="_blank">
               <i class="section-link__icon fa fa-globe"></i>{{ person.contact.website }}
             </a>
 
             <a
               v-if="person.contact.linkedin"
               class="section-link"
-              :href="contactLinks.linkedin">
+              :href="contactLinks.linkedin"
+              target="_blank">
               <i class="section-link__icon fa fa-linkedin"></i>{{ person.contact.linkedin }}
             </a>
 
             <a
               v-if="person.contact.github"
               class="section-link"
-              :href="contactLinks.github">
+              :href="contactLinks.github"
+              target="_blank">
               <i class="section-link__icon fa fa-github"></i>{{ person.contact.github }}
             </a>
 

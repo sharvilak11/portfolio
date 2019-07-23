@@ -34,7 +34,7 @@
 
       <div class="social-container">
         <a v-if="person.contact.website"
-          :href="person.contact.website">
+          :href="person.contact.website" target="_blank">
 
           <div class="block-marged txt-full-white">
             <i class="fa fa-globe contact-icon"></i>
@@ -44,7 +44,7 @@
 
         <a v-if="person.contact.github"
           :href="contactLinks.github"
-          class="external-link">
+          class="external-link" target="_blank">
 
           <i class="fa fa-github contact-icon"></i>
           <span class="block-marged txt-full-white">
